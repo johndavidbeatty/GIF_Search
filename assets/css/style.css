@@ -1,0 +1,50 @@
+
+    h1,
+    button,
+    div,
+    form,
+    input {
+      margin: 10px;
+
+    }
+    body {
+        background-color: rgb(231, 229, 229);
+    }
+    #remove-subject,
+    #add-subject{
+        border: 1px solid black;
+        font-weight: 400;
+        background-color:rgba(255, 255, 255, 0.692);
+    }
+    .subject-btn,
+    button {
+        background-color:grey;
+        border: 1px solid black;
+        color:rgba(255, 255, 255, 0.89);
+        font-weight: bold;
+    }
+
+    #subject-form {
+        margin-left: 0px;
+        background-color:rgb(224, 221, 221);
+        border: 1px solid black;
+        color: black;
+        padding-left:10px;
+
+    }
+    p {
+        margin-bottom: 2px;
+    }
+    .instructions {
+        margin-top: 0px;
+
+    }
+    .container {
+        padding-left: 0px;
+    }
+    #subject-input {
+        border: 1px solid black;
+    }
+    #buttons-display {
+        margin-left: 0px;
+    }

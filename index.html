@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>GIF Search</title>
+
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css" media="screen">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>GIF Search</h1>
+    <p class="instructions">Please click on subject button to see related GIFs or add/remove a subject by typing it in the box. </p>
+    <p class="instructions">If you would like to see more GIFs of the same subject, press its button again. </p>
+
+    <!--ID Div to support drawing buttons -->
+
+
+    <div id="buttons-display"></div>
+
+
+    <!-- Form to submit new subject buttons with add/remove buttons -->
+
+    <form id="subject-form">
+      <label for="subject-input">Add a New Subject</label>
+      <input type="text" id="subject-input">
+
+      <input id="add-subject" type="submit" value="Add Subject ">
+      <input id="remove-subject" type="submit" value="Remove Subject ">
+    </form>
+
+    <p class="instructions">Click on an image to start or stop the GIF. - Enjoy! </p>
+
+  </div>
+
+  <!-- Container for and Div w/ ID for displaying GIFs -->
+
+  <div class="container">
+    <div id="gifs-display" class="row"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script type="text/javascript" src="./assets/javascript/javascript.js"></script>
+</body>
+
+</html>
